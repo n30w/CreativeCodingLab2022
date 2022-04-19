@@ -3,7 +3,8 @@ let deltaY;
 let speedY = 1;
 
 function setup() {
-  createCanvas(1000, 1000);
+  let canvas = createCanvas(800, 800);
+  canvas.parent("jsscript");
   background(200, 200, 160);
   background(0, 0, 40, random(2,10));
   frameCount = 120;
